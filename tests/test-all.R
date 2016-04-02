@@ -1,3 +1,3 @@
 library("testthat")
-library("ast")
-test_check("ast")
+library("tune")
+test_check("tune")
