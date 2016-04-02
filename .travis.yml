@@ -1,0 +1,11 @@
+language: r
+cache: packages
+warnings_are_errors: false
+
+r_github_packages:
+  - klutometis/roxygen@v5.0.0
+  - kirillseva/covr
+after_success:
+  - Rscript -e 'covr::codecov()'
+notifications:
+  email: false

@@ -1,0 +1,19 @@
+Package: tune
+Type: Package
+Title: tune (http://github.com/kirillseva/tune)
+Description: Efficient hyperparameter tuning.
+Version: 0.0.0.9000
+Author: Kirill Sevastyanenko <kirillseva@gmail.com>
+Maintainer: Kirill Sevastyanenko <kirillseva@gmail.com>
+Authors@R: c(person("Kirill", "Sevastyanenko",
+    email = "kirillseva@gmail.com", role = c("aut", "cre")))
+Depends:
+    R (>= 3.0.1)
+License: MIT
+LazyData: true
+Imports:
+    crayon
+Suggests:
+    testthat
+Roxygen: list(wrap = FALSE)
+RoxygenNote: 5.0.1.9000
